@@ -16,8 +16,57 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Me",
+    "title": "Luke Andrade",
     "section": "",
-    "text": "Thanks for checking out my web site!"
+    "text": "Education\n\nRutgers University | New Brunswick, NJ\nM.S. in Financial Statistics and Risk Management | September 2024 - Ongoing\nB.A. in Statistics and Mathematics | September 2020 - May 2024\n\nMinor and Certificate in Data Science\nCourses: Machine Learning Principles, Statistical Learning, Stochastic Processes, Regression Methods, Multivariate Analysis, Mathematical Probability and Statistics, Numerical Analysis, Bayesian Statistics\n\n\n\n\nExperience\n\nCrum & Forster | Data Science Intern (R and SQL)\nActuarial Pricing Team: I developed an R Shiny application that calculates actuarial metrics, key performance indicators, and automates data analysis for actuaries and other insurance personnel. The application connects to several databases gets automatically updated daily with fresh data. This gives actuaries the freedom to focus on more granular levels of data instead of having to worry about data querying, cleaning, analysis, and metric calculation at the higher department and line of business levels.\nSkills: Data Wrangling and Visualization, Application Development, ETL Processes, Curve Fitting, Parameter Estimation, Optimization.\nResearch & Development Team I worked on several projects including analysis of vendor data to find useful predictors for a pricing model, vamping of other Shiny applications to provide quality of life changes and implement new features, and developing of an API to streamline vendor data retrieval and feature engineering for use in a pricing model.\nSkills: Data Analysis, Feature Engineering, Statistical Modeling, API Development.\n\n\n  \n\n\nThanks for checking out my website!"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Luke Andrade",
+    "section": "",
+    "text": "Actuarial Pricing Team: I developed an R Shiny application that calculates actuarial metrics, key performance indicators, and automates data analysis for actuaries and other insurance personnel. The application connects to several databases gets automatically updated daily with fresh data. This gives actuaries the freedom to focus on more granular levels of data instead of having to worry about data querying, cleaning, analysis, and metric calculation at the higher department and line of business levels.\nSkills: Data Wrangling and Visualization, Application Development, ETL Processes, Curve Fitting, Parameter Estimation, Optimization.\nResearch & Development Team I worked on several projects including analysis of vendor data to find useful predictors for a pricing model, vamping of other Shiny applications to provide quality of life changes and implement new features, and developing of an API to streamline vendor data retrieval and feature engineering for use in a pricing model.\nSkills: Data Analysis, Feature Engineering, Statistical Modeling, API Development."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Luke Andrade",
+    "section": "",
+    "text": "M.S. in Financial Statistics and Risk Management | September 2024 - Ongoing\nB.A. in Statistics and Mathematics | September 2020 - May 2024\n\nMinor and Certificate in Data Science\nCourses: Machine Learning Principles, Statistical Learning, Stochastic Processes, Regression Methods, Multivariate Analysis, Mathematical Probability and Statistics, Numerical Analysis, Bayesian Statistics"
+  },
+  {
+    "objectID": "projects.html#genshin-impact-summoning-calculator-1",
+    "href": "projects.html#genshin-impact-summoning-calculator-1",
+    "title": "Projects",
+    "section": "Genshin Impact Summoning Calculator",
+    "text": "Genshin Impact Summoning Calculator\n\nThis probability calculator uses Monte Carlo simulations to estimate probabilities and expected values for summoning in the video game Genshin Impact. It takes several input parameters and then runs the simulations in real time to give an accurate and individualized statistics for the user."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This probability calculator uses Monte Carlo simulations to estimate probabilities and expected values for summoning in the video game Genshin Impact. It takes several input parameters and then runs the simulations in real time to give accurate and individualized statistics for the user allowing them to assess their risk.\n\n\n\n\nIn this project, I wanted to build a model to predict the the price of the SPXC stock. By doing this project, I was able to learn about ARIMA, exponential smoothing (Holt’s Linear Trend), and LSTM (neural network) models. Part of my analysis included checking if the time series was stationary through the ADF test, checking if residuals are white noise via the Ljung-Box test, and testing the models on close price (non-stationary), price difference (stationary), and returns (stationary).\n\n\n\nIn this project, I was interested in building a model for one of the Kaggle playground series competitions. The goal was to predict whether a bank customer will churn or not. After building a few models (Logistic Regression, Random Forest, XGBoost) and submitting their predictions to Kaggle, the results showed that boosting was the best, followed by lasso logistic, and then bagging in last place. The analysis and modeling showed that the most significant features were customer age and whether a customer has 2 products or not with the bank. Some parts of the analysis included LASSO regularization for feature selection and calculating metrics such as precision, F1-Score, and AUC."
+  },
+  {
+    "objectID": "projects.html#genshin-impact-summoning-calculator",
+    "href": "projects.html#genshin-impact-summoning-calculator",
+    "title": "Projects",
+    "section": "",
+    "text": "This probability calculator uses Monte Carlo simulations to estimate probabilities and expected values for summoning in the video game Genshin Impact. It takes several input parameters and then runs the simulations in real time to give accurate and individualized statistics for the user allowing them to assess their risk."
+  },
+  {
+    "objectID": "projects.html#completed",
+    "href": "projects.html#completed",
+    "title": "Projects",
+    "section": "",
+    "text": "This probability calculator uses Monte Carlo simulations to estimate probabilities and expected values for summoning in the video game Genshin Impact. It takes several input parameters and then runs the simulations in real time to give accurate and individualized statistics for the user allowing them to assess their risk.\n\n\n\n\nIn this project, I wanted to build a model to predict the the price of the SPXC stock. By doing this project, I was able to learn about ARIMA, exponential smoothing (Holt’s Linear Trend), and LSTM (neural network) models. Part of my analysis included checking if the time series was stationary through the ADF test, checking if residuals are white noise via the Ljung-Box test, and testing the models on close price (non-stationary), price difference (stationary), and returns (stationary).\n\n\n\nIn this project, I was interested in building a model for one of the Kaggle playground series competitions. The goal was to predict whether a bank customer will churn or not. After building a few models (Logistic Regression, Random Forest, XGBoost) and submitting their predictions to Kaggle, the results showed that boosting was the best, followed by lasso logistic, and then bagging in last place. The analysis and modeling showed that the most significant features were customer age and whether a customer has 2 products or not with the bank. Some parts of the analysis included LASSO regularization for feature selection and calculating metrics such as precision, F1-Score, and AUC."
+  },
+  {
+    "objectID": "projects.html#ongoing",
+    "href": "projects.html#ongoing",
+    "title": "Projects",
+    "section": "Ongoing",
+    "text": "Ongoing\n\nMachine Learning from Scratch in R\nAs statistics curriculum tend to focus on some theory and then application of models through functions in R (or Python), students such as myself overlook the algorithm and math that drives the functions. Thus through this project, my goal is to learn about all the necessary math behind the machine learning models that are thought in school and implement them in R from scratch. To do this, I am reading the free online books An Introduction to Statistical Learning and Advanced R , which has allowed me to learn more about how and why the models work, how to calculate the parameter significance, and how to program in the R6 object oriented programming framework in R.\n\n\n\n\nAlgorithmic Stock Trading\nIn this project, I am leveraging a brokerage’s API to develop infrastructure to automate trading, back-test strategies, and analyze real-time data. The goal is to have a framework where I can seamlessly implement and test any strategy as well as try to develop some strategies of my own."
   }
 ]

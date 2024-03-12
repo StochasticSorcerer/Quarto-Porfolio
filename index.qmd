@@ -1,19 +1,34 @@
 ---
-title: "About Me"
+title: "Luke Andrade"
 about:
   id: me
-  template: broadside
+  template: jolla
   image: img/profile.png
 ---
 
-:::{#me}
+::: {#me}
+### Education
 
-## Goals
+##### **Rutgers University** \| *New Brunswick, NJ*
 
-## Education
+*M.S. in Financial Statistics and Risk Management* \| September 2024 - Ongoing
 
-## Experience
+*B.A. in Statistics and Mathematics* \| September 2020 - May 2024
 
+-   Minor and Certificate in Data Science
+-   Courses: Machine Learning Principles, Statistical Learning, Stochastic Processes, Regression Methods, Multivariate Analysis, Mathematical Probability and Statistics, Numerical Analysis, Bayesian Statistics
+
+### Experience
+
+##### **Crum & Forster** \| *Data Science Intern (R and SQL)*
+
+**Actuarial Pricing Team:** I developed an R Shiny application that calculates actuarial metrics, key performance indicators, and automates data analysis for actuaries and other insurance personnel. The application connects to several databases gets automatically updated daily with fresh data. This gives actuaries the freedom to focus on more granular levels of data instead of having to worry about data querying, cleaning, analysis, and metric calculation at the higher department and line of business levels.
+
+*Skills:* Data Wrangling and Visualization, Application Development, ETL Processes, Curve Fitting, Parameter Estimation, Optimization.
+
+**Research & Development Team** I worked on several projects including analysis of vendor data to find useful predictors for a pricing model, vamping of other Shiny applications to provide quality of life changes and implement new features, and developing of an API to streamline vendor data retrieval and feature engineering for use in a pricing model.
+
+*Skills:* Data Analysis, Feature Engineering, Statistical Modeling, API Development.
 :::
 
-Thanks for checking out my web site!
+Thanks for checking out my website!

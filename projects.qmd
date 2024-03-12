@@ -2,8 +2,34 @@
 title: "Projects"
 ---
 
-## Project 1
+## Completed
 
-## Project 2
+### [Genshin Impact Summoning Calculator](https://stochasticsorcerer.shinyapps.io/Genshin_Impact_Summon_Calculator/)
 
-## Project 3
+This probability calculator uses Monte Carlo simulations to estimate probabilities and expected values for summoning in the video game Genshin Impact. It takes several input parameters and then runs the simulations in real time to give accurate and individualized statistics for the user allowing them to assess their risk.
+
+![](img/Genshin%20Dashboard.png)
+
+### SPXC Stock Prediction
+
+In this project, I wanted to build a model to predict the the price of the SPXC stock. By doing this project, I was able to learn about ARIMA, exponential smoothing (Holt's Linear Trend), and LSTM (neural network) models. Part of my analysis included checking if the time series was stationary through the ADF test, checking if residuals are white noise via the Ljung-Box test, and testing the models on close price (non-stationary), price difference (stationary), and returns (stationary).
+
+### [Customer Churn Prediction](https://rpubs.com/StochasticSorcerer/churn-prediction)
+
+In this project, I was interested in building a model for one of the Kaggle playground series competitions. The goal was to predict whether a bank customer will churn or not. After building a few models (Logistic Regression, Random Forest, XGBoost) and submitting their predictions to Kaggle, the results showed that boosting was the best, followed by lasso logistic, and then bagging in last place. The analysis and modeling showed that the most significant features were customer age and whether a customer has 2 products or not with the bank. Some parts of the analysis included LASSO regularization for feature selection and calculating metrics such as precision, F1-Score, and AUC.
+
+![](img/Model_Results.png)
+
+## Ongoing
+
+### [Machine Learning from Scratch in R](https://github.com/StochasticSorcerer/ML-from-Scratch-in-R)
+
+As statistics curriculum tend to focus on some theory and then application of models through functions in R (or Python), students such as myself overlook the algorithm and math that drives the functions. Thus through this project, my goal is to learn about all the necessary math behind the machine learning models that are thought in school and implement them in R from scratch. To do this, I am reading the free online books [*An Introduction to Statistical Learning*](https://www.statlearning.com/) and [*Advanced R*](https://adv-r.hadley.nz/index.html) , which has allowed me to learn more about how and why the models work, how to calculate the parameter significance, and how to program in the R6 object oriented programming framework in R.
+
+![](img/Model_Diagnostic_Output.png)
+
+![](img/Scatterplot1.png)
+
+### Algorithmic Stock Trading
+
+In this project, I am leveraging a brokerage's API to develop infrastructure to automate trading, back-test strategies, and analyze real-time data. The goal is to have a framework where I can seamlessly implement and test any strategy as well as try to develop some strategies of my own.

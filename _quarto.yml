@@ -3,11 +3,11 @@ project:
   output-dir: docs
   
 website:
-  title: "Luke Andrade Website"
+  title: "Luke Andrade's Portfolio"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: About Me
       - projects.qmd
     tools:
       - icon: linkedin
@@ -20,7 +20,7 @@ website:
 
 format:
   html:
-    theme: cerulean
+    theme: lux
     toc: true
 
 editor: source
