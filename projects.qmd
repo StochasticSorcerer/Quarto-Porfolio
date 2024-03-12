@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-## Completed
+## *Completed*
 
 ### [Genshin Impact Summoning Calculator](https://stochasticsorcerer.shinyapps.io/Genshin_Impact_Summon_Calculator/)
 
@@ -12,7 +12,7 @@ This probability calculator uses Monte Carlo simulations to estimate probabiliti
 
 ### SPXC Stock Prediction
 
-In this project, I wanted to build a model to predict the the price of the SPXC stock. By doing this project, I was able to learn about ARIMA, exponential smoothing (Holt's Linear Trend), and LSTM (neural network) models. Part of my analysis included checking if the time series was stationary through the ADF test, checking if residuals are white noise via the Ljung-Box test, and testing the models on close price (non-stationary), price difference (stationary), and returns (stationary).
+In this project, I wanted to build a model to predict the the price of the SPXC stock. By doing this project, I was able to learn about ARIMA, exponential smoothing (Holt's Linear Trend), and LSTM (neural network) models. Part of my analysis included checking if the time series was stationary through the ADF test, checking if residuals are white noise via the Ljung-Box test, and building models for close price (non-stationary), price difference (stationary), and returns (stationary).
 
 ### [Customer Churn Prediction](https://rpubs.com/StochasticSorcerer/churn-prediction)
 
@@ -20,7 +20,7 @@ In this project, I was interested in building a model for one of the Kaggle play
 
 ![](img/Model_Results.png)
 
-## Ongoing
+## *Ongoing*
 
 ### [Machine Learning from Scratch in R](https://github.com/StochasticSorcerer/ML-from-Scratch-in-R)
 

@@ -7,6 +7,8 @@ about:
 ---
 
 ::: {#me}
+Hi I'm Luke, a current double major in statistics and math at Rutgers and soon to be master student in financial statistics. My academic interests are probability theory, stochastic processes, and Monte Carlo simulations. My career goal is to become a quantitative research (statistical arbitrage) and I am currently looking for quantitative research experience to supplement my education. My current goals are learning more about the financial markets and becoming proficient in self-learning/reading math textbooks. Some of my hobbies include playing video games, taekwondo, volleyball, and learning K-Pop dances.
+
 ### Education
 
 ##### **Rutgers University** \| *New Brunswick, NJ*
@@ -17,6 +19,7 @@ about:
 
 -   Minor and Certificate in Data Science
 -   Courses: Machine Learning Principles, Statistical Learning, Stochastic Processes, Regression Methods, Multivariate Analysis, Mathematical Probability and Statistics, Numerical Analysis, Bayesian Statistics
+-   Participated in the quantitative finance club, taekwondo club, and K-Pop dance club
 
 ### Experience
 
