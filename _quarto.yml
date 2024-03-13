@@ -23,6 +23,7 @@ website:
 format:
   html:
     fontcolor: black
+    linkcolor: black
     toc: true
 
 editor: source
