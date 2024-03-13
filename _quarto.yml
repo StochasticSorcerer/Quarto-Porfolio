@@ -5,6 +5,8 @@ project:
 website:
   title: "Luke Andrade's Portfolio"
   navbar:
+    background: black
+    foreground: white
     left:
       - href: index.qmd
         text: About Me
@@ -13,14 +15,14 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/landrade0228/
       - icon: github
-        href: https://github.com/StochasticSorcerer/quarto-website-template
+        href: https://github.com/StochasticSorcerer
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
     left: "&copy; Copyright 2023, Luke Andrade"
 
 format:
   html:
-    theme: lux
+    fontcolor: black
     toc: true
 
 editor: source
