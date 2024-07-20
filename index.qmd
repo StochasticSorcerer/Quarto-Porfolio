@@ -21,7 +21,7 @@ Some of my hobbies are playing video games, volleyball, reading, taekwondo, and 
 
 -- --
 
-##### **Rutgers University** \| *New Brunswick, NJ*
+##### ![](img/ru_logo.png){.center} **Rutgers University** \| *New Brunswick, NJ*
 
 ###### *M.S. in Financial Statistics and Risk Management* \| September 2024 - December 2025
 
@@ -35,7 +35,7 @@ Some of my hobbies are playing video games, volleyball, reading, taekwondo, and 
 
 -- --
 
-##### **MarketAxess** \| *Quantitative Research Intern (Python, SQL)* <br> Hudson Yards, NY \| June 2024 - August 2024
+##### ![](img/ma_logo.jpg){.center} **MarketAxess** \| *Quantitative Research Intern (Python, SQL)* \| June 2024 - August 2024
 
 **Personal Project:** I researched the effects that a trading strategy has on bond pricing, trade execution, and market impact. I also tested different benchmarks that can be used for testing such strategies and analyzed how dealers respond to these strategies.
 
@@ -43,7 +43,7 @@ Some of my hobbies are playing video games, volleyball, reading, taekwondo, and 
 
 -- --
 
-##### **Crum & Forster** \| *Data Science Intern (R, SQL)* <br> Morristown, NJ \| May 2023 - November 2023
+##### ![](img/crum.png){.center} **Crum & Forster** \| *Data Science Intern (R, SQL)* \| May 2023 - November 2023
 
 **Research & Development Team:** I worked on several projects including analysis of vendor data to find useful predictors for a pricing model, revamping of other Shiny applications to provide quality of life changes and implement new features, and developing of an API to streamline vendor data retrieval and feature engineering for use in a pricing model.
 

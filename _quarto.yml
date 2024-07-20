@@ -30,5 +30,7 @@ format:
     linkcolor: black
     toc: true
 
+css: styles.css
+
 editor: source
 
