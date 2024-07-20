@@ -24,7 +24,7 @@ In this project, I was interested in building a model for one of the Kaggle play
 
 ### [Machine Learning from Scratch in R](https://github.com/StochasticSorcerer/ML-from-Scratch-in-R)
 
-As statistics curriculum tend to focus on some theory and then application of models through functions in R (or Python), students such as myself overlook the algorithm and math that drives the functions. Thus through this project, my goal is to learn about all the necessary math behind the machine learning models that are thought in school and implement them in R from scratch. To do this, I am reading the free online books [*An Introduction to Statistical Learning*](https://www.statlearning.com/) and [*Advanced R*](https://adv-r.hadley.nz/index.html) , which has allowed me to learn more about how and why the models work, how to calculate the parameter significance, and how to program in the R6 object oriented programming framework in R.
+As statistics curriculum tend to focus on some theory and then application of models through functions in R (or Python), students such as myself overlook the algorithm and math that drives the functions. Through this project, my goal is to learn about all the necessary math behind the machine learning models that are thought in school and implement them in R from scratch. To do this, I am reading the free online books [*An Introduction to Statistical Learning*](https://www.statlearning.com/) and [*Advanced R*](https://adv-r.hadley.nz/index.html) , which has allowed me to learn more about how and why the models work, how to calculate the parameter significance, and how to program in the R6 object oriented programming framework in R.
 
 ![](img/Model_Diagnostic_Output.png)
 
@@ -32,4 +32,4 @@ As statistics curriculum tend to focus on some theory and then application of mo
 
 ### Algorithmic Stock Trading
 
-In this project, I am leveraging a brokerage's API to develop infrastructure to automate trading, back-test strategies, and analyze real-time data. The goal is to have a framework where I can seamlessly implement and test any strategy as well as try to develop some strategies of my own.
+In this project, I am leveraging a brokerage's API to develop infrastructure to automate trading, back-test strategies, and analyze real-time data. The goal is to have a framework where I can seamlessly implement and test any strategy as well as try to develop some strategies of my own. Currently, I am pulling daily stock data for every ticker, filtering to pairs that have large correlations, and then testing for cointegration. I will back test pairs trading on potential pairs. Unfortunately, this project is currently on hold do to lack of ram.

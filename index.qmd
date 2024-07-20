@@ -3,37 +3,54 @@ title: "Luke Andrade"
 about:
   id: me
   template: jolla
-  image: img/profile.png
+  image: img/MKTX Headshot.jfif
+  image-width: 25em
 ---
 
 ::: {#me}
 ### About
 
-Hi I'm Luke, a current double major in statistics and mathematics and soon to be master student in financial statistics. My academic interests are probability theory, stochastic processes, and Monte Carlo simulations. My career goal is to become a quantitative research (statistical arbitrage) and I am currently looking for quantitative research experience to supplement my education. My current goals are learning more about the financial markets and becoming proficient in self-learning/reading math textbooks. Some of my hobbies include playing video games, taekwondo, volleyball, and learning K-Pop dances.
+-- --
+ 
+Hi I'm Luke, a master's student in statistics and aspiring quantitative researcher. \
+My academic interests are probability theory, stochastic processes, and Monte Carlo simulations. \
+My goals are to learn more about the financial markets and become proficient in self-learning math.\
+Some of my hobbies are playing video games, volleyball, reading, taekwondo, and learning K-Pop dances.
 
 ### Education
 
+-- --
+
 ##### **Rutgers University** \| *New Brunswick, NJ*
 
-*M.S. in Financial Statistics and Risk Management* \| September 2024 - Ongoing
+###### *M.S. in Financial Statistics and Risk Management* \| September 2024 - December 2025
 
-*B.A. in Statistics and Mathematics* \| September 2020 - May 2024
+###### *B.A. in Statistics and Mathematics* \| September 2020 - May 2024
 
 -   Minor and Certificate in Data Science
--   Courses: Machine Learning Principles, Statistical Learning, Stochastic Processes, Regression Methods, Multivariate Analysis, Mathematical Probability and Statistics, Numerical Analysis, Bayesian Statistics
+-   Courses: Machine Learning Principles, Probability Theory, Stochastic Processes, Mathematical Statistics, Regression Methods, Multivariate Analysis, Numerical Analysis, and Bayesian Statistics
 -   Participated in the quantitative finance club, taekwondo club, and K-Pop dance club
 
 ### Experience
 
-##### **Crum & Forster** \| *Data Science Intern (R and SQL)*
+-- --
 
-**Actuarial Pricing Team:** I developed an R Shiny application that calculates actuarial metrics, key performance indicators, and automates data analysis for actuaries and other insurance personnel. The application connects to several databases gets automatically updated daily with fresh data. This gives actuaries the freedom to focus on more granular levels of data instead of having to worry about data querying, cleaning, analysis, and metric calculation at the higher department and line of business levels.
+##### **MarketAxess** \| *Quantitative Research Intern (Python, SQL)* <br> Hudson Yards, NY \| June 2024 - August 2024
 
-***Skills:*** Data Wrangling and Visualization, Application Development, ETL Processes, Curve Fitting, Parameter Estimation, Optimization.
+**Personal Project:** I researched the effects that a trading strategy has on bond pricing, trade execution, and market impact. I also tested different benchmarks that can be used for testing such strategies and analyzed how dealers respond to these strategies.
 
-**Research & Development Team:** I worked on several projects including analysis of vendor data to find useful predictors for a pricing model, vamping of other Shiny applications to provide quality of life changes and implement new features, and developing of an API to streamline vendor data retrieval and feature engineering for use in a pricing model.
+**Group Project:** Other interns and I wire-framed the implementation of a pricing model into a new market and how it would benefit automation in that market. I personally analyzed the demand for automation and compared the accuracy between a proprietary model and competitor model.
 
-***Skills:*** Data Analysis, Feature Engineering, Statistical Modeling, API Development.
+-- --
+
+##### **Crum & Forster** \| *Data Science Intern (R, SQL)* <br> Morristown, NJ \| May 2023 - November 2023
+
+**Research & Development Team:** I worked on several projects including analysis of vendor data to find useful predictors for a pricing model, revamping of other Shiny applications to provide quality of life changes and implement new features, and developing of an API to streamline vendor data retrieval and feature engineering for use in a pricing model.
+
+**Actuarial Pricing Team:** I developed an R Shiny application that calculates actuarial metrics, key performance indicators, and automates data analysis for actuaries and other insurance personnel. The application connects to several databases gets automatically updated daily with fresh data. This gives actuaries the freedom to focus on more granular levels of data instead of having to worry about data querying, cleaning, analysis, visualization, and metric calculation at the higher department and line of business levels.
+
+-- --
+
 :::
 
 Thanks for checking out my website!
