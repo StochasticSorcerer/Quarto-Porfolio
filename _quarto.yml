@@ -12,8 +12,8 @@ website:
         text: About Me
       - href: projects.qmd
         text: Projects
-      - href: books.qmd
-        text: Reading List
+      #- href: books.qmd
+       # text: Reading List
 
     tools:
       - icon: linkedin

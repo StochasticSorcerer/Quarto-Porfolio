@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -95,10 +95,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./books.html"> 
-<span class="menu-text">Reading List</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -132,18 +128,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="about" class="level3">
 <h3 data-anchor-id="about">About</h3>
 <hr>
-<p>Hi I’m Luke, a master’s student in statistics and aspiring quantitative researcher.<br>
-My academic interests are probability theory, stochastic processes, and Monte Carlo simulations.<br>
-My goals are to learn more about the financial markets and become proficient in self-learning math.<br>
-Some of my hobbies are playing video games, volleyball, reading, taekwondo, and learning K-Pop dances.</p>
+<p>Hi I’m Luke, a master’s student in statistics, aspiring statistical arbitrage researcher, and hopefully a future PhD student in statistics.<br>
+My academic interests are probability theory, stochastic processes, time series analysis, and simulations.<br>
+My current goals are to gain research experience, pass PhD qualifying exams in Summer 2025, and increase my overall mathematical maturity.<br>
+Some of my hobbies are playing video games and volleyball. Recently I’ve been playing Pokemon Go.</p>
 </section>
 <section id="education" class="level3">
 <h3 data-anchor-id="education">Education</h3>
 <hr>
 <section id="rutgers-university-new-brunswick-nj" class="level5">
 <h5 data-anchor-id="rutgers-university-new-brunswick-nj"><img src="img/ru_logo.png" class="center img-fluid"> <strong>Rutgers University</strong> | <em>New Brunswick, NJ</em></h5>
-<section id="m.s.-in-financial-statistics-and-risk-management-september-2024---december-2025" class="level6">
-<h6 data-anchor-id="m.s.-in-financial-statistics-and-risk-management-september-2024---december-2025"><em>M.S. in Financial Statistics and Risk Management</em> | September 2024 - December 2025</h6>
+<section id="m.s.-in-statistics-september-2024---present" class="level6">
+<h6 data-anchor-id="m.s.-in-statistics-september-2024---present"><em>M.S. in Statistics</em> | September 2024 - Present</h6>
+<ul>
+<li>Financial Statistics and Risk Management Program and Completing First Year PhD Requirements.</li>
+<li>Current Courses: Measure Theoretic Probability (PhD), Mathematical Statistics (PhD), Applied Statistical Methods I (PhD), Foundations of Risk Management</li>
+<li>Future Courses: Stochastic Processes (PhD), Statistical Inference (PhD), Applied Statistical Methods II (PhD), Time Series Analysis, Data Mining</li>
+</ul>
 </section>
 <section id="b.a.-in-statistics-and-mathematics-september-2020---may-2024" class="level6">
 <h6 data-anchor-id="b.a.-in-statistics-and-mathematics-september-2020---may-2024"><em>B.A. in Statistics and Mathematics</em> | September 2020 - May 2024</h6>
@@ -252,6 +253,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -286,7 +305,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

@@ -12,10 +12,10 @@ about:
 
 -- --
  
-Hi I'm Luke, a master's student in statistics and aspiring quantitative researcher. \
-My academic interests are probability theory, stochastic processes, and Monte Carlo simulations. \
-My goals are to learn more about the financial markets and become proficient in self-learning math.\
-Some of my hobbies are playing video games, volleyball, reading, taekwondo, and learning K-Pop dances.
+Hi I'm Luke, a master's student in statistics, aspiring statistical arbitrage researcher, and hopefully a future PhD student in statistics. \
+My academic interests are probability theory, stochastic processes, time series analysis, and simulations. \
+My current goals are to gain research experience, pass PhD qualifying exams in Summer 2025, and increase my overall mathematical maturity. \
+Some of my hobbies are playing video games and volleyball. Recently I've been playing Pokemon Go.
 
 ### Education
 
@@ -23,7 +23,10 @@ Some of my hobbies are playing video games, volleyball, reading, taekwondo, and 
 
 ##### ![](img/ru_logo.png){.center} **Rutgers University** \| *New Brunswick, NJ*
 
-###### *M.S. in Financial Statistics and Risk Management* \| September 2024 - December 2025
+###### *M.S. in Statistics* \| September 2024 - Present
+-   Financial Statistics and Risk Management Program and Completing First Year PhD Requirements.
+-   Current Courses: Measure Theoretic Probability (PhD), Mathematical Statistics (PhD), Applied Statistical Methods I (PhD), Foundations of Risk Management
+- Future Courses: Stochastic Processes (PhD), Statistical Inference (PhD), Applied Statistical Methods II (PhD), Time Series Analysis, Data Mining
 
 ###### *B.A. in Statistics and Mathematics* \| September 2020 - May 2024
 
