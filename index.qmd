@@ -14,6 +14,7 @@ about:
  
 Hi I'm Luke, a master's student in statistics, aspiring statistical arbitrage researcher, and hopefully a future PhD student in statistics. \
 My academic interests are probability theory, stochastic processes, time series analysis, and simulations. \
+I'm also have a high interest in taking future coursework in physics, quantum computing, and econometrics.
 My current goals are to gain research experience, pass PhD qualifying exams in Summer 2025, and increase my overall mathematical maturity. \
 Some of my hobbies are playing video games and volleyball. Recently I've been playing Pokemon Go.
 
